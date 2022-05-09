@@ -1,0 +1,75 @@
+.contHome{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.title{
+    font-size: 28px;
+    color: rgb(57, 57, 57);
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+.cont{
+    background: rgb(170, 170, 170);
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    
+    
+    
+}
+
+.driverPhoto{
+    height: 250px;
+    margin: auto 20px;
+}
+.contInfo{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+.info{
+
+    display: flex;
+    flex-direction: column;
+    background: ghostwhite;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+small{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.lab{
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.btnBack{
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(46deg, rgb(0, 200, 255), rgb(0, 166, 255));
+    
+}
+.btnBack:hover{
+    cursor: pointer;
+    background: linear-gradient(46deg, rgb(0, 157, 255), rgb(0, 106, 255));
+}
+a{
+    margin: auto;
+}

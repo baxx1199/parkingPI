@@ -1,0 +1,6 @@
+.contbody{
+    width: 80%;
+    margin:  10px auto;
+    box-shadow: 1px 1px 10px 1px rgb(180, 180, 180);
+    min-height: 500px;
+}

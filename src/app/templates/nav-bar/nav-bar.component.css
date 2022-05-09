@@ -1,0 +1,52 @@
+nav{
+    
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: gray;
+    color: rgb(44, 44, 44);
+    border: 3px solid gray;
+}
+.logo{
+    box-sizing: border-box;
+    background: rgb(158, 157, 157);
+    margin: auto;
+    height: 65px;
+    width: 40%;
+    border-radius: 10px;
+}
+.options_nav{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 40%;
+    justify-content: space-between;
+}
+.btnNav{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+li{
+    list-style: none;
+    box-sizing: border-box;
+    height: 70px;
+    width: 120px;
+    text-align: center;
+}
+.settings_opt{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.settings_opt:hover{
+    overflow: visible;
+}
+.optNav:hover{
+    cursor: pointer;
+    border-bottom: 3px solid rgb(76, 76, 76);
+}
